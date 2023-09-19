@@ -18,10 +18,13 @@ class HomePage extends GetView<HomeController> {
             selectedItemColor: Colors.blue,
             unselectedItemColor: Colors.black,
             items: const [
-            //  BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
-              BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-              BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Access'),
+              //  BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.search), label: 'Search'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.person), label: 'Profile'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.favorite), label: 'Access'),
               BottomNavigationBarItem(icon: Icon(Icons.mail), label: 'Gmail'),
             ],
           ),
